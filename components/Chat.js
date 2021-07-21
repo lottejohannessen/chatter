@@ -149,7 +149,7 @@ export default class Chat extends React.Component {
       })
     } catch (error) {
       console.log(error.message);
-    }
+    } 
   }
 
   // Adds messages to cloud storage
