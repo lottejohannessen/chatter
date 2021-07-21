@@ -22,7 +22,7 @@ export default class Start extends React.Component {
       color: '#fff'
     };
   }
-
+ 
   render() {
     const name = this.state.name;
     const color = this.state.color;
