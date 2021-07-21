@@ -24,7 +24,7 @@ export default class CustomActions extends React.Component {
     const cancelButtonIndex = options.length - 1;
     this.context.actionSheet().showActionSheetWithOptions(
       {
-        options,
+        options, 
         cancelButtonIndex,
       },
       async (buttonIndex) => {
